@@ -75,6 +75,23 @@ header .container {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
+section.download  {
+  display: block;
+  height: 50px;
+  width: 200px;
+  background: #000000;
+
+  /*TYPE*/
+  color: white;
+  font: 17px/50px Helvetica, Verdana, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
 header img {
   display: block;
   margin: 0 auto 20px;
@@ -490,6 +507,7 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
 #skipnav a {
   padding: 6px;
   position: absolute;
